@@ -1,0 +1,44 @@
+## Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build outputs & DLLs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## ASP.NET Core User Secrets & App Settings
+# Зазвичай appsettings.Development.json залишають, але секрети краще ховати
+**/properties/launchSettings.json
+*.pem
+*.key
+
+## OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+## NuGet packages & folders
+# Дехто вважає за краще не комітити пакети (вони завантажуються автоматично через dotnet restore)
+[Nn]uGet/
+*.nupkg
+*.snupkg
+
+## Backup / Temp files
+*.bak
+*.tmp
+*.cache
